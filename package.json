@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "live-server --entry-file=src/index.html --wait=300",
+    "git": "git add . && git commit -m",
+    "postgit": "git pull && git push && git status"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
